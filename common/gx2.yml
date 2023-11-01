@@ -1,0 +1,33 @@
+!!de.orb.wiiu.rpxgadgetfinder.SymbolList
+symbols:
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2Init, out: ROP_GX2Init}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2Shutdown, out: ROP_GX2Shutdown}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2Flush, out: ROP_GX2Flush}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2DrawDone, out: ROP_GX2DrawDone}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2WaitForVsync, out: ROP_GX2WaitForVsync}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: GX2DirectCallDisplayList, out: ROP_GX2DirectCallDisplayList}
+- !!de.orb.wiiu.rpxgadgetfinder.GadgetSymbol
+  hash: !!binary |-
+    0hCapIuj2I7pT0Mnboln9URCLcg8zWuZ2xr3LB2aCBg=
+  out: ROP_GX2SetSemaphore_2C
+  size: 32
+- !!de.orb.wiiu.rpxgadgetfinder.GadgetSymbol
+  hash: !!binary |-
+    R39zCpi3J2Qbgu3+IsFNrHNHlogfHa89Vfc0/Ns4wbQ=
+  out: ROP_GX2_r3r4load
+  size: 24
+- !!de.orb.wiiu.rpxgadgetfinder.GadgetSymbol
+  hash: !!binary |-
+    3CseouL2xxAvUMi7GrQZ98tD2h9E+IaY1m/T/8S8/u8=
+  out: ROP_GX2_r30r31load
+  size: 24
+- !!de.orb.wiiu.rpxgadgetfinder.GadgetSymbol
+  hash: !!binary |-
+    aevLIb1haFrCHxo3BNNhB1zCdQHYTn5fqyQCG69WE7o=
+  out: ROP_GX2_do_flush
+  size: 44
+- !!de.orb.wiiu.rpxgadgetfinder.GadgetSymbol
+  hash: !!binary |-
+    ZoF5SgV8HwDWCrz8oUm4QtQZpDN690ixdZst3/8kNr0=
+  out: ROP_GX2_call_r12
+  size: 28

@@ -1,0 +1,5 @@
+!!de.orb.wiiu.rpxgadgetfinder.SymbolList
+symbols:
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: socket, out: ROP_socket}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: connect, out: ROP_connect}
+- !!de.orb.wiiu.rpxgadgetfinder.ExportSymbol {name: recv, out: ROP_recv}
